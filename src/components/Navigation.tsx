@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 function Navigation() {
 
     return (
-        <nav className="flex justify-between items-center h-[50px] px-10 shadow-md bg-gray-600 text-white text-xl">
+        <nav className="flex justify-between items-center flex-wrap h-[60px] px-10 shadow-md bg-gray-600 text-white text-xl">
             <h3 className="font-bold">GitHub search</h3>
             <span className="flex items-center gap-4">
                 <Link to="/"  className="hover:underline">Home</Link>
